@@ -8,6 +8,17 @@ const StyledStartPage = styled.div`
 	background-color: #e3b505;
 `;
 
+const StyledTitle = styled.div`
+font-size: 3em;
+font-family: "ZCOOL QingKe HuangYou", cursive;
+position: absolute;
+top: 30%;
+left: 50%;
+transform: translate(-50%, -50%);
+text-align: center;
+vertical-align: middle;
+`;
+
 const StartButton = styled.button`
 	font-size: 2em;
 	font-family: "ZCOOL QingKe HuangYou", cursive;
@@ -73,7 +84,8 @@ const StartButton = styled.button`
 const StartPage = ({ startClick }) => {
 	return (
 		<StyledStartPage>
-			<StartButton onClick={startClick}>Press Start</StartButton>
+			<StyledTitle >Sanctions Tetris</StyledTitle>
+			<StartButton onClick={startClick}>Start</StartButton>
 		</StyledStartPage>
 	);
 };
