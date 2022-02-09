@@ -3,7 +3,6 @@ import "./App.css";
 import HomePage from "./components/HomePage";
 import LoginPage from "./components/LoginPage";
 import SignupPage from "./components/SignupPage";
-import Navbar from "./components/Navbar";
 import ProtectedExamplePage from "./components/ProtectedExamplePage";
 import { ProvideAuth } from "./util/authContext";
 import ProtectedRoute from "./components/ProtectedRoute";
@@ -13,7 +12,6 @@ function App() {
   return (
     <ProvideAuth>
       <Router>
-        <Navbar />
         <Switch>
           <Route exact path="/">
             <Tetris />
