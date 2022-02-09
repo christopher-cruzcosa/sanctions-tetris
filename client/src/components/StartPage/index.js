@@ -9,7 +9,7 @@ const StyledStartPage = styled.div`
 `;
 
 const StartButton = styled.button`
-	font-size: 2.2em;
+	font-size: 2em;
 	font-family: "ZCOOL QingKe HuangYou", cursive;
 	/* border: 2px solid #222; */
 	border: none;
