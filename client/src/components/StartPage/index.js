@@ -5,11 +5,12 @@ const StyledStartPage = styled.div`
 	width: 100vw;
 	height: 100vh;
 	overflow: hidden;
-	background-color: #e3b505;
+	background-color: #365ebf;
 `;
 
 const StyledTitle = styled.div`
 font-size: 3em;
+color: #FFFDFA;
 font-family: "ZCOOL QingKe HuangYou", cursive;
 position: absolute;
 top: 30%;
@@ -33,7 +34,7 @@ const StartButton = styled.button`
 	vertical-align: middle;
 	text-decoration: none;
 	transition: all 0.5s;
-	color: #95190c;
+	color: #365ebf;
 	border-right: 1px solid #eee;
 	border-radius: 2px;
 	border-bottom: 1px solid #ccc;
@@ -84,7 +85,7 @@ const StartButton = styled.button`
 const StartPage = ({ startClick }) => {
 	return (
 		<StyledStartPage>
-			<StyledTitle >Sanctions Tetris</StyledTitle>
+			<StyledTitle >Sanctions Team <br/>Tetris</StyledTitle>
 			<StartButton onClick={startClick}>Start</StartButton>
 		</StyledStartPage>
 	);
