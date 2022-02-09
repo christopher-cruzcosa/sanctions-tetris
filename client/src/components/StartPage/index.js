@@ -73,7 +73,7 @@ const StartButton = styled.button`
 const StartPage = ({ startClick }) => {
 	return (
 		<StyledStartPage>
-			<StartButton onClick={startClick}>Hello Intuit Sanctions Team - Press Start</StartButton>
+			<StartButton onClick={startClick}>Press Start</StartButton>
 		</StyledStartPage>
 	);
 };
